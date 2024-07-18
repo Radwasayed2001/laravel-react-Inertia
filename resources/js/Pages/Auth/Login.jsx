@@ -6,8 +6,8 @@ import InputLabel from '@/Components/InputLabel';
 import PrimaryButton from '@/Components/PrimaryButton';
 import TextInput from '@/Components/TextInput';
 import { Head, Link, useForm } from '@inertiajs/react';
-import Lab from "../../../../public/build/assets/images/NewLab4.png";
-import GoogleIcon from "../../../../public/build/assets/images/google.png";
+import Lab from "../../../images/NewLab4.png";
+import GoogleIcon from "../../../images/google.png";
 import toast, { Toaster }  from 'react-hot-toast';
 export default function Login({ status, canResetPassword }) {
     const { data, setData, post, processing, errors, reset } = useForm({

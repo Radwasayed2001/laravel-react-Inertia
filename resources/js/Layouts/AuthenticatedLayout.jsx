@@ -2,15 +2,15 @@ import { useEffect, useState } from 'react';
 import Dropdown from '@/Components/Dropdown';
 import NavLink from '@/Components/NavLink';
 import ResponsiveNavLink from '@/Components/ResponsiveNavLink';
-import logo from "../../../public/build/assets/images/logo.png";
-import Team from "../../../public/build/assets/images/social.svg";
-import Calender from "../../../public/build/assets/images/sceduled.svg";
-import Projects from "../../../public/build/assets/images/starred.svg";
-import Documents from "../../../public/build/assets/images/labicon.png";
+import logo from "../../images/logo.png";
+import Team from "../../images/social.svg";
+import Calender from "../../images/sceduled.svg";
+import Projects from "../../images/starred.svg";
+import Documents from "../../images/labicon.png";
 import styled from "styled-components";
 import DragHandleIcon from '@mui/icons-material/DragHandle';
 import LogoutIcon from '@mui/icons-material/Logout';
-import Home from "../../../public/build/assets/images/profile.png"
+import Home from "../../images/profile.png"
 // import toast from "react-hot-toast";
 import "./AuthenticatedLayout.css"
 import { Link, useForm, usePage } from '@inertiajs/react';

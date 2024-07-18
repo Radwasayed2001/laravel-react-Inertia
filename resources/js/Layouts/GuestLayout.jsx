@@ -1,9 +1,9 @@
 import ApplicationLogo from '@/Components/ApplicationLogo';
 import { Link, usePage } from '@inertiajs/react';
 import { Container, Nav, Navbar, NavDropdown, Dropdown } from 'react-bootstrap';
-import Logo from "../../../public/build/assets/images/logo.png"
-import Usa from "../../../public/build/assets/images/usa.png"
-import Egp from "../../../public/build/assets/images/egypt.png"
+import Logo from "../../images/logo.png"
+import Usa from "../../images/usa.png"
+import Egp from "../../images/egypt.png"
 import "./GuestLayout.css"
 import { useEffect } from 'react';
 import toast from 'react-hot-toast';

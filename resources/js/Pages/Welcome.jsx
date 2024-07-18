@@ -1,9 +1,9 @@
 import { Link, Head, usePage } from '@inertiajs/react';
 import { Container, Nav, Navbar, NavDropdown, Dropdown, Card, Button } from 'react-bootstrap';
-import Logo from "../../../public/build/assets/images/logo.png"
-import Usa from "../../../public/build/assets/images/usa.png"
-import Egp from "../../../public/build/assets/images/egypt.png"
-import Lab from "../../../public/build/assets/images/NewLab4.png"
+import Logo from "../../images/logo.png"
+import Usa from "../../images/usa.png"
+import Egp from "../../images/egypt.png"
+import Lab from "../../images/NewLab4.png"
 import "../Layouts/GuestLayout.css"
 import Footer from './Footer';
 import { useEffect } from 'react';

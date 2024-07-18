@@ -2,7 +2,7 @@ import ReactPlayer from 'react-player';
 import { Card } from 'react-bootstrap';
 import Footer from './Footer';
 import GuestLayout from '@/Layouts/GuestLayout';
-import Video from "../../../public/build/assets/images/Photovoltaic 3D IV Curve Experiment (GreenVLabs.com).mp4";
+import Video from "../../images/Photovoltaic 3D IV Curve Experiment (GreenVLabs.com).mp4";
 import { Head } from '@inertiajs/react';
 export default function About() {
   return (
